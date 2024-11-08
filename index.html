@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <div class="container">
+        <div class="card" data-tilt>
+            <img src="ak.jpg">
+            <h2>HI THERE!</h2>
+            <p>Let me introduce myself. <br/>My name is Aqeela
+            <br/>as a student informatics 
+            <br/> coding is fun ^ _ ^
+            <br/> my social media 👇🏻</p>
+
+            <div class="flex space-x-4">
+                <a href="https://www.instagram.com/kilaaoe?igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
+                  <i class="fab fa-instagram text-white text-lg"></i>
+                </a>
+                <a href="https://open.spotify.com/user/31t5jtmg6wzpt3l4phh7x3wor5sm?si=U32eTRlWR8-BUMj-pTy8QA" target="_blank">
+                  <i class="fab fa-spotify text-white text-lg"></i>
+                </a>
+                <a href="https://www.tiktok.com/@kittenchi?_t=8rDUISBPUNL&_r=1" target="_blank">
+                  <i class="fab fa-tiktok text-white text-lg"></i>
+                </a>
+                <a href="https://wa.me/6287878581257" target="_blank">
+  
+                  <button class="btn fourth">Message me </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5,
+        });
+    </script>
+</body>
+</html>
